@@ -5,10 +5,10 @@
     int c = x % 10;
     int b = x % 100 / 10;
     int a = x / 100;
-    if ((a==b)&&(b==c)) Console.WriteLine("Все цыфры одинаковы");
-    else Console.WriteLine("Цыфры не одинаковы");
-    if ((c == b) || (c == a) || (a == b)) Console.WriteLine("Есть одинаковые цыфры");
-    else Console.WriteLine("Нет одинаковых цыфры");
+    if ((a==b)&&(b==c)) Console.WriteLine("Все цифры одинаковы");
+    else Console.WriteLine("Цифры не одинаковы");
+    if ((c == b) || (c == a) || (a == b)) Console.WriteLine("Есть одинаковые цифры");
+    else Console.WriteLine("Нет одинаковых цифры");
 }
 catch
 {
